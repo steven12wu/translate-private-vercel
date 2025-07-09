@@ -10,6 +10,10 @@
     {
       "src": "/api/translate",
       "dest": "/api/translate.js"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
     }
   ]
 }
