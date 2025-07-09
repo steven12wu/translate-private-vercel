@@ -26,7 +26,7 @@
     let lastText = "";
 
     navigator.mediaDevices.getUserMedia({
-      video: { facingMode: { exact: "environment" } }
+      video: { facingMode: "environment" }
     }).then(stream => {
       video.srcObject = stream;
     }).catch(() => {

@@ -1,4 +1,3 @@
-
 export default async function handler(req, res) {
   const apiKey = process.env.OPENAI_API_KEY;
   const { text } = req.body;
